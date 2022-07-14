@@ -1,0 +1,26 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color:bisque;   /* 背景色指定 */
+  /*内側と外側の余白をなくす*/
+}
+#title{
+  bottom:  0;                  /* 位置指定 */
+  left:  0;                    /* 位置指定 */
+  right:  0;                   /* 位置指定 */
+  margin:  auto;               /* 中央寄せ */
+}
+#map{
+  float: right;
+  height: 50%;
+  width:30%;
+  margin-top: 10px;
+  margin-bottom:15px;
+}
+#pano {
+  float: left;
+  height: 90%;
+  width: 70%;
+}
